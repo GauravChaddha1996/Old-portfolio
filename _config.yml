@@ -18,11 +18,11 @@ tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 7
 
 # social settings
-facebook_url: https://www.facebook.com/gauravChaddha1996
+medium_url: https://medium.com/@chaddhag
+twitter_url: https://twitter.com/chaddhag1996
+facebook_url: https://www.facebook.com/chaddhag
+linkedin_url: https://www.linkedin.com/in/chaddhag
 github_url: https://github.com/GauravChaddha1996
-linkedin_url: https://www.linkedin.com/in/gaurav-chaddha/
-medium_url: https://medium.com/@Batdroid
-twitter_url: https://twitter.com/batdroid_1996
 
 # build settings
 markdown: kramdown
