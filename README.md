@@ -22,10 +22,6 @@ and [creating pages](https://jekyllrb.com/docs/pages/).
 * Change banner image
 * change nimble images
 * images from blink.watch
-* edit bitotsav 2nd image
-* Add contact me in footer.html
-* add whitespace in  desc and screenshots, and in underline and text in images
-* change blog page space
 
 # Credits
 

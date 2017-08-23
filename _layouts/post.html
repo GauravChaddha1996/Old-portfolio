@@ -21,7 +21,19 @@
 	<div class="inner">
 		<header class="major">
 			<h1>{{ page.title }}</h1>
-			<span style="font-size:20pt"> {{ page.description }} </span>
+			<span style="font-size:20pt"> {{ page.description }} 
+			</span>
+			<br />
+			<span style="font-size:15pt"> 
+				{% if page.project_url %}
+				     <a href="{{ page.project_url}}"> Project Repo</a>
+				{% endif %}
+				{% if page.company_url %}
+				     <a href="{{ page.company_url}}"> Product website</a>
+				{% endif %}
+			</span>
+		
+			
 		</header>
 		
 		<p>{{ content }}</p>
