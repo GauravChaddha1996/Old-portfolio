@@ -1,0 +1,31 @@
+# site settings
+title: Gaurav Chaddha
+subtitle: 
+email: chaddhag@gmail.com
+description: Software Engineer - Java and Android. <br /> Passionate and Curious. <br />Learning new things everyday.
+baseurl: ""
+url: "https://chaddhag.com" # the base hostname & protocol for your site
+author: Gaurav Chaddha
+street_address: BIT Mesra
+city: Ranchi
+state: Jharkhand
+zip_code: 835215
+country: India
+phone: (+91) 9006256972
+
+# homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 7
+
+# social settings
+facebook_url: https://www.facebook.com/gauravChaddha1996
+github_url: https://github.com/GauravChaddha1996
+linkedin_url: https://www.linkedin.com/in/gaurav-chaddha/
+medium_url: https://medium.com/@Batdroid
+twitter_url: https://twitter.com/batdroid_1996
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
