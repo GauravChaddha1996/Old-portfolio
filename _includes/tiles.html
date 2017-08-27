@@ -6,7 +6,7 @@
                         <img src="{{ post.image }}" alt="" />
                 </span>
                 <header class="major">
-                        <h3><a href="{{ post.url  | relative_url }}" class="link">{{ post.title }}</a></h3>
+                        <h3><a href="{{ post.url  | relative_url }}" class="link">{{ post.title }} {{post.company}}</a></h3>
                         <span style="font-size:20pt"> {{ post.description }} </span>
                 </header>
         </article>

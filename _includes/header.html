@@ -3,7 +3,13 @@
 
 <!-- Header -->
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{|}}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
+	{% if page.layout == "post" %}
+	<div id="back" style="width=100%; height=100%; padding-left:20px" onclick="window.history.back()">
+	    <i class="fa fa-arrow-left" aria-hidden="true" ></i>
+	</div>
+	
+	{% endif %}
+	<a href="{{site.base_url}}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
 	<nav>
 		<a href="#menu">Menu</a>
 	</nav>
