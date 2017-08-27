@@ -6,6 +6,14 @@ Portfolio website made with [Forty](https://github.com/andrewbanchich/forty-jeky
 * Change banner image
 * change nimble images
 * images from blink.watch
+* change description
+* profile -> doing to pursuing
+		doing to practising
+		3 internship exp -> /3 leading startups
+		but to and
+		new things -> improve statement add
+		hightlight and href post or project title in post.html (only name)
+		back button
 
 # Credits
 
