@@ -5,7 +5,7 @@ Portfolio website made with [Forty](https://github.com/andrewbanchich/forty-jeky
 
 * Banner Image
 * Nimble placeholder image
-* Underline post.html title
+
 * Better Blink Images
 * Images on right of paragraph
 
