@@ -19,11 +19,21 @@
 <!-- One -->
 <section id="one">
 	<div class="inner">
-                {% for post in site.posts %}
+                {% for page in site.posts %}
 		<header class="major">
-			<h1>{{ post.title }}</h1>
+			 <h2>
+			{% if page.project_url %}
+				     <a href="{{ page.project_url}}" target="_blank"> {{ page.title }} </a>
+			{% endif %}
+			{% if page.company_url %}
+			     <a href="{{ page.company_url}}" target="_blank"> {{ page.title }} </a>
+			{% endif %}
+			{{page.company}}</h2>
+			<span style="font-size:18pt"> {{ page.description }} 
+			</span>
+			<br />
 		</header>
-		<p>{{ post.content }}</p>
+		<p>{{ page.content }}</p>
                 {% endfor %}
 	</div>
 </section>
