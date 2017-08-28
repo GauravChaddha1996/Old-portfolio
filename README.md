@@ -1,14 +1,6 @@
 # Portfolio website
 Portfolio website made with [Forty](https://github.com/andrewbanchich/forty-jekyll-theme) theme by HTML5 UP ported to jekyll by [Andrew Banchich](https://github.com/andrewbanchich).
 
-# Todos
-
-* Banner Image
-* Nimble placeholder image
-
-* Better Blink Images
-* Images on right of paragraph
-
 # Credits
 
 Original README from HTML5 UP:
