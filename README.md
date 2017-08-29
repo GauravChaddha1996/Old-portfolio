@@ -1,6 +1,13 @@
 # Portfolio website
 Portfolio website made with [Forty](https://github.com/andrewbanchich/forty-jekyll-theme) theme by HTML5 UP ported to jekyll by [Andrew Banchich](https://github.com/andrewbanchich).
 
+# Running Locally
+To use this as your base site, fork this project and then clone it. Type command 'sudo jekyll serve' to run this website locally. Install any missing items erros that come up when running this command. 
+
+# Todos
+1. Integrate google analytics with jekyll.
+2. Write about me page.
+
 # Credits
 
 Original README from HTML5 UP:
